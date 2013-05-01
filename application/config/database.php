@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
+$db['default']['hostname'] = 'mysql.myweborchard.com';
+$db['default']['username'] = 'younia';
+$db['default']['password'] = '357834';
 $db['default']['database'] = 'newc_academy';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
