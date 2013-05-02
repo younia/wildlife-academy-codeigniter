@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -55,14 +54,14 @@
     <div class="container">
 	
 		<div class="span10 offset1">
-			<h3><?php echo $course->course_name; ?></h3>
+			<h3><?php // echo $course->course_name; ?></h3>
 			<h3><?php echo $lesson->lesson_name; ?></h3>
 			<div>
 				<p><?php echo $lesson->lesson_content; ?></p>
 			</div>
 			<div>	
 			<?php foreach ($quizes as $quiz): ?>
-				<a href="<?php echo $this->config->item('base_url'); ?>index.php/quiz/view/<?php echo $quiz->id; ?>" ><h4><?php echo $quiz->quiz_name; ?></h4></a>
+				<a href="#" ><h4><?php echo $quiz->quiz_name; ?></h4></a>
 			<?php endforeach; ?>
 			</div>
 		</div>
